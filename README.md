@@ -153,7 +153,7 @@ request one from LetsEncrypt (more on that).
 
 ``` text
 # copy the setup files.
-git clone https://github.com/dm3ll3n/ShinyStudio
+git clone https://github.com/carlosantagiustina/ShinyStudio
 
 # enter the directory.
 cd ShinyStudio
@@ -239,7 +239,7 @@ name, then request a new cert from LetsEncrypt like so:
 
     ./certify.sh <domain name> <email>
     
-    # e.g., ./certify.sh www.shinystudio.com donald@email.com
+    # e.g., ./certify.sh www.shinystudio.com YOUR_EMAIL@email.com
 
 CertBot, included in the stack, will automatically renew your
 LetsEncrypt certificate.
